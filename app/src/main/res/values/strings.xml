@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Rover Clone</string>
+    <string name="safely_delivering_people_and_packages">SAFELY DELIVERING PEOPLE AND PACKAGES</string>
+    <string name="please_enter_your_mobile_number_to_book_a_ride_or_parcel_delivery">Please enter your mobile number to book a ride or parcel delivery.</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="rover_location_msg">Rover requires constant access to your phone’s location to
+        show your availability to users.Rover will use location in the background which allow users to track your realtime location.</string>
+    <string name="no_internet_found">No Internet Connection</string>
+    <string name="verify_otp_msg">A one-time password (OTP) has been sent to your registered phone
+        number.</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="login">Login</string>
+    <string name="login_with_password">Login with Password ?</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="register_msg">Enter details to create account with Rover Clone</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="term_and_condition">By registering, you\'re agreeing to our Terms and Condition</string>
+    <string name="login_msg">Enter password for your Mobile Number to proceed.</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+</resources>
