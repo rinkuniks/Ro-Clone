@@ -2,8 +2,8 @@ package com.example.roverclone.utility
 
 object Urls {
   //Base url
-//  const val BASE_URL = "https://rovertaxi-dev.affleprojects.com/api/"; //Staging base url
-  const val BASE_URL = "https://roverrsd-uat.affleprojects.com/api/" //UAT Base url
+  const val BASE_URL = "https://rovertaxi-dev.affleprojects.com/api/"; //Staging base url
+//  const val BASE_URL = "https://roverrsd-uat.affleprojects.com/api/" //UAT Base url
 //  const val BASE_URL = "https://www.rovertaxi.net/api/";  // Prod URL
 
   //Authenticate
