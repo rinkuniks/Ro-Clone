@@ -27,7 +27,12 @@
     <string name="action_settings">Settings</string>
 
     <string name="menu_home">Home</string>
-    <string name="menu_gallery">Gallery</string>
-    <string name="menu_slideshow">Slideshow</string>
+    <string name="my_request">My Request</string>
+    <string name="my_fav">My Favourites</string>
+    <string name="manage_cards">Manage Cards</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Logout</string>
+    <string name="MAPS__KEY">AIzaSyDWlEs-ne669y0oHbAwGVb76sKK3mPoyyg</string>
+    <string name="select_payment_method">Select Payment Method</string>
 
 </resources>

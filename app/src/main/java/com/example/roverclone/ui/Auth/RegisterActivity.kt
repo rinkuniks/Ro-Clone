@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.roverclone.R
 import com.example.roverclone.databinding.ActivityRegisterBinding
+import com.example.roverclone.ui.Home.HomeActivity
 
 class RegisterActivity : AppCompatActivity() {
 
@@ -16,8 +17,8 @@ class RegisterActivity : AppCompatActivity() {
     setContentView(binding.root)
 
     binding.btnContinue.setOnClickListener {
-
+      val intent = Intent(this, HomeActivity::class.java)
+      startActivity(intent)
     }
-
   }
 }

@@ -1,4 +1,4 @@
-package com.example.roverclone.ui.Home.ui.slideshow
+package com.example.roverclone.ui.Home.ui.favourite
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.roverclone.databinding.FragmentSlideshowBinding
+import com.example.roverclone.databinding.FragmentMyFavouriteBinding
 
-class SlideshowFragment : Fragment() {
+class MyFavouriteFragment : Fragment() {
 
-  private var _binding: FragmentSlideshowBinding? = null
+  private var _binding: FragmentMyFavouriteBinding? = null
 
   // This property is only valid between onCreateView and
   // onDestroyView.
@@ -22,16 +22,16 @@ class SlideshowFragment : Fragment() {
     container: ViewGroup?,
     savedInstanceState: Bundle?
   ): View {
-    val slideshowViewModel =
-      ViewModelProvider(this).get(SlideshowViewModel::class.java)
+    val myFavouriteViewModel =
+      ViewModelProvider(this).get(MyFavouriteViewModel::class.java)
 
-    _binding = FragmentSlideshowBinding.inflate(inflater, container, false)
+    _binding = FragmentMyFavouriteBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
-    val textView: TextView = binding.textSlideshow
-    slideshowViewModel.text.observe(viewLifecycleOwner) {
-      textView.text = it
-    }
+//    val textView: TextView = binding.textSlideshow
+//    myFavouriteViewModel.text.observe(viewLifecycleOwner) {
+//      textView.text = it
+//    }
     return root
   }
 

@@ -16,6 +16,7 @@ class EnterMobileActivity : AppCompatActivity() {
     binding = ActivityEnterMobileBinding.inflate(layoutInflater)
     setContentView(binding.root)
 
+    //onBtn Click validate and send otp
     binding.btnContinue.setOnClickListener {
       if (validateNumber() && isNetworkAvailable(this)){
         getOtpApi(binding.editTextMobile.text.toString())
@@ -26,6 +27,7 @@ class EnterMobileActivity : AppCompatActivity() {
   private fun getOtpApi(mobile: String?) {
 //    showLoader(this)
     val intent = Intent(this, VerifyActivity::class.java)
+//        val intent = Intent(this, ConfirmationActivity::class.java)
     startActivity(intent)
   }
 

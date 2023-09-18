@@ -12,14 +12,27 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.roverclone.ui.Home.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_my_request"
+        android:name="com.example.roverclone.ui.Home.ui.request.MyRequestFragment"
+        android:label="@string/my_request"
+        tools:layout="@layout/fragment_my_request" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.roverclone.ui.Home.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_my_favourite"
+        android:name="com.example.roverclone.ui.Home.ui.favourite.MyFavouriteFragment"
+        android:label="@string/my_fav"
+        tools:layout="@layout/fragment_my_favourite" />
+
+    <fragment
+        android:id="@+id/faqFragment"
+        android:name="com.example.roverclone.ui.Home.ui.faq.FaqFragment"
+        android:label="fragment_faq"
+        tools:layout="@layout/fragment_faq" />
+
+    <fragment
+        android:id="@+id/manageCardFragment"
+        android:name="com.example.roverclone.ui.Home.ui.manageCard.ManageCardFragment"
+        android:label="fragment_manage_card"
+        tools:layout="@layout/fragment_manage_card" />
+
 </navigation>

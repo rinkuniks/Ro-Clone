@@ -2,7 +2,6 @@ package com.example.roverclone.ui.Home
 
 import android.os.Bundle
 import android.view.Menu
-import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
@@ -35,18 +34,15 @@ class HomeActivity : AppCompatActivity() {
     appBarConfiguration = AppBarConfiguration(
       setOf(
         R.id.nav_home,
-        R.id.nav_gallery,
-        R.id.nav_slideshow
+        R.id.nav_my_request,
+        R.id.nav_my_fav,
+        R.id.nav_manage_cards,
+        R.id.nav_faq,
+        R.id.nav_logout
       ), drawerLayout
     )
     setupActionBarWithNavController(navController, appBarConfiguration)
     navView.setupWithNavController(navController)
-  }
-
-  override fun onCreateOptionsMenu(menu: Menu): Boolean {
-    // Inflate the menu; this adds items to the action bar if it is present.
-    menuInflater.inflate(R.menu.home, menu)
-    return true
   }
 
   override fun onSupportNavigateUp(): Boolean {
