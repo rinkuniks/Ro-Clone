@@ -27,8 +27,6 @@ class EnterMobileActivity : AppCompatActivity() {
 
   private fun getOtpApi(mobile: String?) {
     showLoader(this)
-
-
 //    val intent = Intent(this, VerifyActivity::class.java)
 //    startActivity(intent)
   }
