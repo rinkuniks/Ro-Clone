@@ -1,4 +1,4 @@
-package com.example.roverclone.utility
+package com.example.roverclone.retrofit
 
 object Urls {
   //Base url

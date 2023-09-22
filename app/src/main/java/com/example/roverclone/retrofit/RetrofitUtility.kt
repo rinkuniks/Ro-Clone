@@ -1,7 +1,6 @@
 package com.example.roverclone.retrofit
 
 import com.example.roverclone.retrofit.interfaces.RetrofitInterface
-import com.example.roverclone.utility.Urls
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
@@ -31,12 +30,11 @@ class RetrofitUtility {
         .client(httpClient)
         .addConverterFactory(GsonConverterFactory.create(gson))
         .build()
-//      Retrofit.Builder()
-//      .baseUrl(Urls.BASE_URL)
-//      .addConverterFactory(GsonConverterFactory.create(gson))
-//      .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))
-//      .client(httpClient)
-//      .build()
+      Retrofit.Builder()
+      .baseUrl(Urls.BASE_URL)
+      .addConverterFactory(GsonConverterFactory.create(gson))
+      .client(httpClient)
+      .build()
     return retrofit.create(RetrofitInterface::class.java)
   }
 

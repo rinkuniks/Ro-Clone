@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.roverclone.databinding.ActivityEnterMobileBinding
 import com.example.roverclone.utility.CommonUtils.isNetworkAvailable
+import com.example.roverclone.utility.CommonUtils.showLoader
 import com.example.roverclone.utility.CommonUtils.showToast
 
 class EnterMobileActivity : AppCompatActivity() {
@@ -25,10 +26,11 @@ class EnterMobileActivity : AppCompatActivity() {
   }
 
   private fun getOtpApi(mobile: String?) {
-//    showLoader(this)
-    val intent = Intent(this, VerifyActivity::class.java)
-//        val intent = Intent(this, ConfirmationActivity::class.java)
-    startActivity(intent)
+    showLoader(this)
+
+
+//    val intent = Intent(this, VerifyActivity::class.java)
+//    startActivity(intent)
   }
 
   private fun validateNumber(): Boolean {

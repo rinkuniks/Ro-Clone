@@ -10,7 +10,7 @@ import android.widget.Toast
 import com.example.roverclone.R
 
 object CommonUtils {
-  var loader: ProgressDialog? = null
+  private var loader: ProgressDialog? = null
 
   fun showToast(context: Context?, message: String?) {
     val toast = Toast.makeText(context, message, Toast.LENGTH_SHORT)
