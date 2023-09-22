@@ -8,9 +8,8 @@ object Constants {
   const val CUSTOMER = "customer"
   const val DRIVER = "driver"
 
-  //"IN" for testing
+  //"IN" for testing and "US" for client build
   const val SELECTED_COUNTRY = "IN"
-  //Change SELECTED_COUNTRY to "US" for client build
 //  const val SELECTED_COUNTRY = "US";
 
   //existing users

@@ -1,4 +1,5 @@
 package com.example.roverclone.model.enterMobile
 
-class EnterMobileResponse {
-}
+data class EnterMobileResponse(
+    val response: Response
+)

@@ -1,5 +1,6 @@
 package com.example.roverclone.retrofit
 
+import android.annotation.SuppressLint
 import com.example.roverclone.retrofit.interfaces.RetrofitInterface
 import com.google.gson.GsonBuilder
 import okhttp3.OkHttpClient
